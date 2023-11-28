@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to left, #b13b3a, #b95438, #c47b37);
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 780px;
+    height: 570px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #fff;
+}
+
+.nav-menu h1 {
+    font-size: 20px;
+    font-family: poppins;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.nav-menu h3 {
+    font-size: small;
+    font-family: poppins;
+    font-weight: 100;
+}
+
+.nav-menu a {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+    width: 70%;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.nav-menu .fa-facebook {
+    margin-right: 10px;
+}
+
+.nav-menu .fa-twitter {
+    margin-right: 10px;
+}
+
+.nav-menu .fa-apple {
+    margin-right: 10px;
+}
+
+.nav-menu .fa-mobile {
+    margin-right: 10px;
+}
+
+.nav-menu .fa-envelope {
+    margin-right: 10px;
+}
+
+.nav-menu .fa-google {
+    margin-right: 10px;
+}
+
+.nav-menu img {
+    width: 50px;
+    margin-top: 30px;
+}
+
+/*right side*/
+.side {
+    display: flex;
+}
+
+.i {
+    margin-right: 2px;
+}
